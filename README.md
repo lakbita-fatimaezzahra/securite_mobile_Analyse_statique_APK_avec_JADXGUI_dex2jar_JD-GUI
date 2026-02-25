@@ -24,14 +24,18 @@ Task 2 — Extraire/obtenir l'APK
      
 Task 3 — Analyse avec JADX GUI 
      1.  j ai lance JADX GUI
+    
      <img width="1271" height="651" alt="image" src="https://github.com/user-attachments/assets/03149c75-c7cc-4716-bc7b-e399f9113299" />
 
      2. j ai fait l upload de l APK
      
+   
      3. Exploration de la structure de l'APK
+     
      <img width="1169" height="445" alt="image" src="https://github.com/user-attachments/assets/3b45a757-1366-4740-a860-16691c3bb7c9" />
 
       4. Analysez le manifeste en détail
+     
       <img width="1915" height="976" alt="image" src="https://github.com/user-attachments/assets/10932277-f7b7-440d-8cdd-51436ca4e823" />
 
         a. Informations générales
@@ -53,30 +57,50 @@ Ces permissions permettent :Lecture/écriture sur stockage externe, Communicatio
        c. Composants déclarés
 -- Activities (17)
 MainActivity
+
 LogActivity
+
 HardcodeActivity
+
 InsecureDataStorage1Activity
+
 InsecureDataStorage2Activity
+
 InsecureDataStorage3Activity
+
 InsecureDataStorage4Activity
+
 SQLInjectionActivity
+
 InputValidation2URISchemeActivity
+
 AccessControl1Activity
+
 APICredsActivity
+
 AccessControl2Activity
+
 APICreds2Activity
+
 AccessControl3Activity
+
 Hardcode2Activity
+
 AccessControl3NotesActivity
+
 InputValidation3Activity
+
 
 -Provider:jakhar.aseem.diva.NotesProvider
 -Services: Aucun
 -Receivers: Aucun
 
         d. Composants exportés ou exposés
+
 Activities avec intent-filter (export implicite)
+
 MainActivity (MAIN / LAUNCHER)
+
 *APICredsActivity
 *APICreds2Activity
  Ces activités peuvent être appelées par d’autres applications.
